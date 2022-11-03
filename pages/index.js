@@ -27,7 +27,7 @@ export default function Home(){
         <h3>The bird sang {numBird} times.</h3>
       </div>
       
-        <div className={styles.countrycard}><CountryCard open={openCountryCard} onClose={() => setOpenCountryCard(false)}/></div>
+        <div><CountryCard open={openCountryCard} onClose={() => setOpenCountryCard(false)}/></div>
       
       
       <div className={styles.component}>
