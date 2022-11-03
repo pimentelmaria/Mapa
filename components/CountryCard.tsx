@@ -19,7 +19,7 @@ export default function CountryCard({open, onClose}) {
                 </div>
                 <div className = 'countryCardText'>
                     <h1>The bird is singing!</h1>
-                    <a className={styles.alignright} href="https://www.youtube.com/watch?v=Man4Xw8Xypo" target="_blank">😃 Click to hear 😃</a>
+                    <a className={styles.alignright} href="https://www.youtube.com/watch?v=6f0T6UV-HiI" target="_blank">😃 Click to hear 😃</a>
                 </div>
             </div>
         </div>
