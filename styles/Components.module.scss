@@ -1,7 +1,12 @@
 .component {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.componentself {
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .text {
@@ -19,7 +24,7 @@
     position: fixed;
     display: flex;
     align-items: center;
-    padding-right: 10%;
+    justify-content: center;
     margin-left: 30%;
     margin-top: 10%;
     top: 0;

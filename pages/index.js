@@ -31,10 +31,10 @@ export default function Home(){
       
       
       <div className={styles.component}>
-        <div>
+        <div className={styles.componentself}>
           <button><img src="/images/musician.png" alt="musician" onClick={musicianClick}/></button>
         </div>
-        <div>
+        <div className={styles.componentself}>
           <button><img src="/images/bird.png" alt="bird" onClick={birdClick}/></button>
         </div>
       </div>
