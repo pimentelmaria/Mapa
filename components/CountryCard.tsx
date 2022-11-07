@@ -1,8 +1,9 @@
-
 import styles from '../styles/Components.module.scss'
 import React, { useState } from 'react'
 
-export default function CountryCard({open, onClose}) {
+
+
+export default function CountryCard({open, onClose, info}) {
 
     if (!open) return null
 
@@ -15,7 +16,7 @@ export default function CountryCard({open, onClose}) {
             </div>
             <div className={styles.vertical}>
                 <div className={styles.spacebutton}>
-                    <button onClick={onClose} className='closeButton'>X</button>
+                    <button onClick={onClose}>X</button>
                 </div>
                 <div className = 'countryCardText'>
                     <h1>The bird is singing!</h1>
